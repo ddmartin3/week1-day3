@@ -1,0 +1,31 @@
+
+body{
+	padding-left: 150px;
+	width: 60%;
+	left: 200px;
+}
+
+#fixed {
+	position: fixed;
+	background: #ccc;
+	height: 80px;
+	width: 150px;
+	left: -5px;
+}
+
+#relative{
+	position: relative;
+	background: #333;
+	height: 180px;
+	width: 100%;
+}
+
+#abslolute {
+	position: absolute;
+	background: #666;
+	height: 90px;
+	width: 180px;
+	z-index: 3;
+	bottom: 0%;
+	right: -5%;
+}
